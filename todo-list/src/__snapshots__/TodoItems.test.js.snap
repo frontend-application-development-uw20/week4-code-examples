@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItems correctly marks a completed item with a line-through 1`] = `
+<ul>
+  <li
+    key="0"
+    style={
+      Object {
+        "cursor": "pointer",
+        "textDecoration": "line-through",
+      }
+    }
+  >
+    Walk the dog
+  </li>
+</ul>
+`;
+
+exports[`TodoItems renders with a todo 1`] = `
+<ul>
+  <li
+    style="text-decoration:inherit;cursor:pointer"
+  >
+    Walk the dog
+  </li>
+</ul>
+`;
+
+exports[`TodoItems renders with no todos 1`] = `<ul />`;

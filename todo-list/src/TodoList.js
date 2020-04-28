@@ -79,7 +79,7 @@ class TodoList extends React.Component {
     }
 
     render() {
-        console.log(this.state);
+        // console.log(this.state);
         return (
             <div className="Todo-List">
                 <h1>Todo List</h1>
